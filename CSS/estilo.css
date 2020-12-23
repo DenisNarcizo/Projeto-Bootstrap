@@ -55,3 +55,12 @@ ul{
 }
 
 
+
+.box_produtos{ float: left; width: 20%; height: 40vh;  
+}
+
+.box_produtos{
+    float: left;
+    width: 19%;
+    height: 32vh;    
+}

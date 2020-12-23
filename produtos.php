@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost";
-    $username = "fseletro";
-    $password = "1234";
+    $username = "root";
+    $password = "";
     $database = "fullstack_eletro";
 
     //Criando a conexão
@@ -47,7 +47,8 @@
             </ul>
         </section>
 
-        
+        <tbody class="container">
+                <section class="produtos">
         <?php
 
             $sql = "select * from produtos";
@@ -76,6 +77,8 @@
             }        
                     
         ?>
+        </section>
+        </tbody>
         
         <footer id="rodape">
             <p id="formas_pagamento"><b>Formas de pagamentos:</b></p>

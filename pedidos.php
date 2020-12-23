@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost";
-    $username = "fseletro";
-    $password = "1234";
+    $username = "root";
+    $password = "";
     $database = "fullstack_eletro";
 
     //Criando a conexão
