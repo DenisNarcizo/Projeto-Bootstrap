@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "fseletro";
+    $password = "1234";
     $database = "fullstack_eletro";
 
     //Criando a conexão
@@ -42,16 +42,23 @@
             </h1>
             <p>Aproveite nossas promoções!</p>
         </main>
-        </table>
-        <form method="post" action="">
-            Produto:<br>
-            <input type="text" name="produto" style="width: 500px;"><br>
-            Quantidade:<br>
-            <input type="text" name="quantidade" style="width: 500px;"><br>
-            Total:<br>
-            <input type="text" name="total" style="width: 500px;"><br>
-            <input type="submit" name="submit" value="Enviar"><br>
+        <br>
+            <form>
+                <div class="form-group">
+                    <label for="box_produto">Produto:</label>
+                    <input type="text" class="form-control" name="produto" style="width: 500px;"><br>
+                </div>
+                <div class="form-group">
+                    <label for="box_qtd">Quantidade:</label>
+                    <input type="text" class="form-control" name="quantidade" style="width: 500px;"><br>
+                </div>
+                <div class="form-group">
+                    <label for="box_total">Total:</label>
+                    <input type="text" class="form-control" name="total" style="width: 500px;"><br>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
+        <br><br><br>
 
         <?php
 

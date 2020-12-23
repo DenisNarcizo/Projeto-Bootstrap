@@ -1,7 +1,7 @@
 <?php
     $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $username = "fseletro";
+    $password = "1234";
     $database = "fullstack_eletro";
 
     //Criando a conexão
@@ -59,7 +59,7 @@
 
         ?>
 
-        <div class="box_produto" style="display:inline-block" id="<?php echo $rows["nome"];?>">
+        <div class="box_produto" id="<?php echo $rows["categorias"]; ?>" style="display:inline-block;">
             <img src="<?php echo $rows["nome_imagem"];?>" width="80px" onmouseover="aumenta(this)"
                 onmouseout="diminui(this)">
             <br>

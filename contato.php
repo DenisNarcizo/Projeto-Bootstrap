@@ -50,13 +50,20 @@
                 <font face="Arial" size="4">(11) 99999-9999</font>
             </td>
         </table>
-        <form method="post" action="">
-            Nome:<br>
-            <input type="text" name="nome" style="width: 500px;"><br>
-            Mensagem:<br>
-            <input type="text" name="msg" style="width: 500px;"><br>
-            <input type="submit" name="submit" value="Enviar"><br>
+        <form>
+                <div class="form-group">
+                    <label for="box_nome">Nome:</label>
+                    <input type="text" class="form-control" name="nome" style="width: 500px;"><br>
+                </div>
+                <div class="form-group">
+                    <label for="box_mensagem">Mensagem:</label>
+                    <input type="text" class="form-control" name="quantidade" style="width: 500px;"><br>
+                </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+            
         </form>
+
+        <br><br>
 
         <?php
 
